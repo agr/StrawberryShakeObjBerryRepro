@@ -1,0 +1,11 @@
+schema {
+  query: Query
+}
+
+type StringResponse {
+  value: String!
+}
+
+type Query {
+  foo(): StringResponse!
+}
